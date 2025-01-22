@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Symlink Neovim configuration
-ln -sfn ~/.dotfiles/nvim ~/.config/nvim
+ln -sfn ~/.dotfiles/nvim ~/.config/
 
 # Symlink tmux configuration
-ln -sfn ~/.dotfiles/tmux.conf ~/.config/tmux/tmux.conf
+ln -sfn ~/.dotfiles/tmux ~/.config/
 
 echo "Dotfiles symlinked successfully!"
